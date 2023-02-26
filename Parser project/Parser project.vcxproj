@@ -127,13 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="IParser.h" />
     <ClInclude Include="Parser.h" />
-    <ClInclude Include="Parser2.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="IParser.cpp" />
     <ClCompile Include="Parser.cpp" />
-    <ClCompile Include="Parser2.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
